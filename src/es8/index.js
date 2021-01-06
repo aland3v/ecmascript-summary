@@ -20,6 +20,9 @@ const values = Object.values(data2);
 console.log(values);
 console.log(values.length);
 
+// para obtener los keys :D
+console.log(Object.keys(data2))
+
 // Padding: casi como concatenar pero defino la longitud maxima
 const string = 'hello';
 console.log(string.padStart(7,'hi'))
